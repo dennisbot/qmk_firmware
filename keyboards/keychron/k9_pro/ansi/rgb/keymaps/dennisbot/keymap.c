@@ -85,10 +85,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
         KC_LCTL,  MO(L_FN1),  KC_LALT,                                KC_SPC,                                 KC_RALT, KC_LWIN,MO(L_FN1),KC_RCTL),
 
     [MAC_FN] = LAYOUT_61_ansi(
-        KC_GRV,   KC_BRID,  KC_BRIU,  KC_MCTL,  KC_LPAD,  RGB_VAD,  RGB_VAI,  KC_MPRV,  KC_MPLY,  KC_MNXT,  KC_MUTE,  KC_VOLD,  KC_VOLU,  _______,
-        _______,  BT_HST1,  BT_HST2,  BT_HST3,  _______,  _______,  _______,  _______,  _______,  _______,  KC_INS,   KC_PGUP,  KC_HOME,  _______,
-        RGB_TOG,  RGB_MOD,  RGB_VAI,  RGB_HUI,  RGB_SAI,  RGB_SPI,  _______,  _______,  KC_UP,    KC_SNAP,  KC_PGDN,  KC_END,             _______,
-        _______,            RGB_RMOD, RGB_VAD,  RGB_HUD,  RGB_SAD,  RGB_SPD,  NK_TOGG,  KC_LEFT,  KC_DOWN,  KC_RIGHT, KC_DEL,             _______,
+        KC_F8,    KC_F9,    KC_F10,   KC_F11,   KC_F12,   KC_MUTE,  KC_VOLD,  KC_VOLU,  BAT_LVL,  _______,  RGB_TOG,  RGB_VAD,  RGB_VAI,  _______,
+        _______,  KC_ENT,   KC_UP,    KC_F5,    BT_HST1,  BT_HST2,  BT_HST3,  KC_7,     KC_8,     KC_9,     KC_PAST,  KC_PGUP,  KC_HOME,  KC_PSCR,
+        _______,  KC_LEFT,  KC_DOWN,  KC_RIGHT, RGB_MOD,  RGB_HUI,  RGB_SAI,  KC_4,     KC_5,     KC_6,     KC_PPLS,  KC_END,             _______,
+        _______,            KC_F2,    KC_F3,    KC_F4,    RGB_RMOD, RGB_HUD,  RGB_SAD,  KC_1,     KC_2,     KC_3,     KC_0,               _______,
         _______,  _______,  _______,                                _______,                                _______,  _______,  _______,  _______),
 
     [WIN_FN] = LAYOUT_61_ansi(
